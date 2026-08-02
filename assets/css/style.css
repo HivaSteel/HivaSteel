@@ -432,3 +432,69 @@ footer{
     }
 
 }
+
+/* ==========================
+   MOBILE CONTACT BAR
+========================== */
+
+
+.mobile-contact{
+
+    position:fixed;
+
+    bottom:0;
+
+    left:0;
+
+    right:0;
+
+    display:flex;
+
+    gap:12px;
+
+    justify-content:center;
+
+    padding:12px;
+
+    background:white;
+
+    box-shadow:
+    0 -5px 25px rgba(0,0,0,.12);
+
+    z-index:9999;
+
+}
+
+
+.mobile-contact a{
+
+    flex:1;
+
+    max-width:220px;
+
+    padding:13px;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:var(--primary);
+
+    border-radius:14px;
+
+    font-weight:bold;
+
+}
+
+
+@media (min-width:768px){
+
+    .mobile-contact{
+
+        display:none;
+
+    }
+
+}
