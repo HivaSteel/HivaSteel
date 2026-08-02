@@ -30,6 +30,226 @@
 
 }
 
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+
+    background:linear-gradient(135deg,#ffffff,#eef4fa);
+
+    padding:70px 20px;
+
+    text-align:center;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.hero-content{
+
+    max-width:850px;
+
+    margin:0 auto;
+
+}
+
+.brand{
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    color:var(--primary);
+
+    letter-spacing:4px;
+
+    margin-bottom:18px;
+
+}
+
+.hero h1{
+
+    font-size:2.6rem;
+
+    line-height:1.5;
+
+    color:var(--text);
+
+    margin-bottom:18px;
+
+}
+
+.subtitle{
+
+    max-width:650px;
+
+    margin:0 auto;
+
+    font-size:1.15rem;
+
+    line-height:2;
+
+    color:var(--gray);
+
+}
+
+.buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:16px;
+
+    flex-wrap:wrap;
+
+    margin-top:35px;
+
+}
+
+.buttons a{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-width:170px;
+
+    height:52px;
+
+    padding:0 24px;
+
+    text-decoration:none;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    border-radius:14px;
+
+    font-weight:700;
+
+    transition:0.25s;
+
+}
+
+.buttons a:hover{
+
+    background:var(--primary-dark);
+
+    transform:translateY(-2px);
+
+}
+
+.trust{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:14px;
+
+    margin-top:40px;
+
+}
+
+.trust div{
+
+    background:#fff;
+
+    border:1px solid var(--border);
+
+    border-radius:999px;
+
+    padding:10px 18px;
+
+    box-shadow:0 4px 14px rgba(0,0,0,.05);
+
+    font-size:.95rem;
+
+}
+
+.trust strong{
+
+    color:var(--success);
+
+    margin-left:6px;
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width:768px){
+
+    .hero{
+
+        padding:50px 18px;
+
+    }
+
+    .brand{
+
+        letter-spacing:2px;
+
+        font-size:.95rem;
+
+    }
+
+    .hero h1{
+
+        font-size:2rem;
+
+    }
+
+    .subtitle{
+
+        font-size:1rem;
+
+        line-height:1.9;
+
+    }
+
+    .buttons{
+
+        flex-direction:column;
+
+    }
+
+    .buttons a{
+
+        width:100%;
+
+        max-width:320px;
+
+    }
+
+    .trust{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .trust div{
+
+        width:100%;
+
+        max-width:320px;
+
+    }
+
+}
+
 :root{
 
     --primary:#0F4C81;
