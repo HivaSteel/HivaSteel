@@ -1,26 +1,92 @@
 [
     {
-        "product": "ورق سیاه ST37",
-        "thickness": "6 میلی‌متر",
-        "type": "شیت",
-        "size": "1500 × 6000",
+        "category": "ورق سیاه",
+        "grade": "ST37",
+        "thickness": "6",
+        "form": "شیت",
+        "dimensions": "1500 × 6000",
         "factory": "فولاد مبارکه اصفهان",
-        "status": "موجود"
+        "status": "available"
     },
     {
-        "product": "ورق سیاه ST37",
-        "thickness": "6 میلی‌متر",
-        "type": "رول",
-        "size": "-",
+        "category": "ورق سیاه",
+        "grade": "ST37",
+        "thickness": "6",
+        "form": "رول",
+        "dimensions": "-",
         "factory": "فولاد مبارکه اصفهان",
-        "status": "موجود"
+        "status": "available"
     },
     {
-        "product": "ورق سیاه ST37",
-        "thickness": "8 میلی‌متر",
-        "type": "شیت",
-        "size": "1500 × 6000",
+        "category": "ورق سیاه",
+        "grade": "ST37",
+        "thickness": "8",
+        "form": "شیت",
+        "dimensions": "1500 × 6000",
         "factory": "فولاد مبارکه اصفهان",
-        "status": "موجود"
+        "status": "available"
+    },
+    {
+        "category": "ورق سیاه",
+        "grade": "ST37",
+        "thickness": "8",
+        "form": "رول",
+        "dimensions": "-",
+        "factory": "فولاد مبارکه اصفهان",
+        "status": "available"
+    },
+    {
+        "category": "ورق سیاه",
+        "grade": "ST37",
+        "thickness": "10",
+        "form": "شیت",
+        "dimensions": "1500 × 6000",
+        "factory": "فولاد مبارکه اصفهان",
+        "status": "available"
+    },
+    {
+        "category": "ورق سیاه",
+        "grade": "ST37",
+        "thickness": "10",
+        "form": "رول",
+        "dimensions": "-",
+        "factory": "فولاد مبارکه اصفهان",
+        "status": "available"
+    },
+    {
+        "category": "ورق سیاه",
+        "grade": "ST37",
+        "thickness": "12",
+        "form": "شیت",
+        "dimensions": "1500 × 6000",
+        "factory": "فولاد مبارکه اصفهان",
+        "status": "available"
+    },
+    {
+        "category": "ورق سیاه",
+        "grade": "ST37",
+        "thickness": "12",
+        "form": "رول",
+        "dimensions": "-",
+        "factory": "فولاد مبارکه اصفهان",
+        "status": "available"
+    },
+    {
+        "category": "ورق سیاه",
+        "grade": "ST37",
+        "thickness": "15",
+        "form": "شیت",
+        "dimensions": "1500 × 6000",
+        "factory": "فولاد مبارکه اصفهان",
+        "status": "available"
+    },
+    {
+        "category": "ورق سیاه",
+        "grade": "ST37",
+        "thickness": "15",
+        "form": "رول",
+        "dimensions": "-",
+        "factory": "فولاد مبارکه اصفهان",
+        "status": "available"
     }
 ]
