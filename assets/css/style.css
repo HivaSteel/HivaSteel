@@ -3,6 +3,33 @@
    Version 1.0
 ========================== */
 
+@font-face {
+
+    font-family: Vazirmatn;
+
+    src: url("../fonts/Vazirmatn-Regular.woff2")
+    format("woff2");
+
+    font-weight:400;
+
+    font-display:swap;
+
+}
+
+
+@font-face {
+
+    font-family: Vazirmatn;
+
+    src: url("../fonts/Vazirmatn-Bold.woff2")
+    format("woff2");
+
+    font-weight:700;
+
+    font-display:swap;
+
+}
+
 :root{
 
     --primary:#0F4C81;
@@ -198,32 +225,5 @@ footer{
     color:var(--gray);
 
     padding:60px 20px;
-
-}
-
-@font-face {
-
-    font-family: Vazirmatn;
-
-    src: url("../fonts/Vazirmatn-Regular.woff2")
-    format("woff2");
-
-    font-weight:400;
-
-    font-display:swap;
-
-}
-
-
-@font-face {
-
-    font-family: Vazirmatn;
-
-    src: url("../fonts/Vazirmatn-Bold.woff2")
-    format("woff2");
-
-    font-weight:700;
-
-    font-display:swap;
 
 }
