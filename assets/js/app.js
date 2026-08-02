@@ -85,9 +85,9 @@ async function loadWebsite() {
             <br><br>
 
 
-            <a href="tel:${site.phone}">
-                📞 استعلام قیمت
-            </a>
+            <a class="price-btn" href="tel:${site.phone}">
+    📞 تماس برای استعلام قیمت
+</a>
 
         `;
 
