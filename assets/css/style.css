@@ -226,3 +226,52 @@ footer{
     padding:60px 20px;
 
 }
+
+.mobile-contact{
+
+    position:fixed;
+
+    bottom:0;
+
+    right:0;
+
+    left:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+    padding:12px;
+
+    background:white;
+
+    box-shadow:0 -5px 20px rgba(0,0,0,.12);
+
+    z-index:1000;
+
+}
+
+
+.mobile-contact a{
+
+    flex:1;
+
+    max-width:200px;
+
+    text-align:center;
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:14px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
