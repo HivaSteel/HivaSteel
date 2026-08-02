@@ -74,11 +74,10 @@ body{
     color:var(--text);
 
     font-family:
+        Vazirmatn,
         Tahoma,
         Arial,
         sans-serif;
-
-    line-height:1.8;
 
 }
 
